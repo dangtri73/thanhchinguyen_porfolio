@@ -1,0 +1,732 @@
+{
+  "_instructions": {
+    "content": "Chỉnh phần nội dung bên trong languages.en hoặc languages.vi và giữ nguyên tên các khóa.",
+    "richText": "Các trường có tên kết thúc bằng Html có thể giữ những thẻ em, strong, span và i để tạo nhấn mạnh thị giác.",
+    "fallback": "Nếu bản tiếng Việt thiếu một giá trị, trang sẽ tự dùng giá trị tiếng Anh tương ứng."
+  },
+  "defaultLanguage": "en",
+  "languages": {
+    "en": {
+      "meta": {
+        "title": "Nguyễn Thị Thanh Chi — Brand Management | Social Media Marketer",
+        "description": "Portfolio of Nguyễn Thị Thanh Chi — brand and social media marketer with experience at CapitaLand Development, Lazada Vietnam and TikTok Shop Vietnam. Social channel ownership, corporate communications, CSR and video content.",
+        "ogTitle": "Nguyễn Thị Thanh Chi — Brand Management | Social Media Marketer",
+        "ogDescription": "Social channel ownership, corporate communications, CSR and content production. Selected work from CapitaLand, Lazada, TikTok Shop and freelance brands."
+      },
+      "language": {
+        "selector": "Language",
+        "english": "View site in English",
+        "vietnamese": "View site in Vietnamese",
+        "changed": "Language changed to English"
+      },
+      "a11y": {
+        "skipWork": "Skip to selected work",
+        "primaryNav": "Primary",
+        "introduction": "Introduction",
+        "carousel": "carousel",
+        "featuredProjects": "Featured projects",
+        "slide": "slide",
+        "chooseSlide": "Choose slide",
+        "scrollAbout": "Scroll to About section",
+        "interests": "Interests",
+        "skillCategories": "Skill categories",
+        "constellationDescription": "Interactive map of skills grouped by category. Hover or focus a skill to see years of experience and where it was applied.",
+        "filterProjects": "Filter projects by group",
+        "socialProfiles": "Social profiles",
+        "closeCase": "Close case study",
+        "closeCv": "Close CV preview",
+        "cvFrameTitle": "CV preview",
+        "videoUnsupported": "Your browser can't play this video."
+      },
+      "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "work": "Work",
+        "contact": "Contact",
+        "previewCv": "Preview CV",
+        "previewPrefix": "Preview"
+      },
+      "common": {
+        "downloadCv": "Download CV",
+        "download": "Download",
+        "viewCase": "View case study",
+        "whatIDid": "What I did",
+        "outcome": "Outcome"
+      },
+      "hero": {
+        "hello": "Portfolio · Ho Chi Minh City",
+        "nameHtml": "Nguyễn Thị Thanh <span class=\"accent\">Chi</span>",
+        "roleHtml": "Brand Management<i aria-hidden=\"true\">/</i>Social Media Marketer",
+        "companies": "CapitaLand Development · TikTok Shop · Lazada Vietnam",
+        "viewWork": "See selected work",
+        "contact": "Get in touch",
+        "featured": "Featured",
+        "scroll": "Scroll",
+        "slides": {
+          "corp": {
+            "tag": "CapitaLand Development · On-going",
+            "title": "Corporate video series",
+            "alt": "Real Living with CLD resident story visuals",
+            "ariaLabel": "1 of 4"
+          },
+          "lazada": {
+            "tag": "Lazada Vietnam · B2C social",
+            "title": "Owning Lazada's social channels",
+            "alt": "Lazada Vietnam social media key visuals and campaign posts",
+            "ariaLabel": "2 of 4"
+          },
+          "tiktok": {
+            "tag": "TikTok Shop Vietnam · B2B",
+            "title": "Building the seller channel ecosystem",
+            "alt": "TikTok Shop Vietnam seller content across its channels",
+            "ariaLabel": "3 of 4"
+          },
+          "freelance": {
+            "tag": "Freelance · Lifestyle brands",
+            "title": "Content for SME brands",
+            "alt": "Freelance social content for lifestyle brands",
+            "ariaLabel": "4 of 4"
+          }
+        },
+        "slideButtons": {
+          "one": "Slide 1",
+          "two": "Slide 2",
+          "three": "Slide 3",
+          "four": "Slide 4"
+        }
+      },
+      "about": {
+        "portraitAlt": "Portrait of Nguyễn Thị Thanh Chi",
+        "name": "Nguyễn Thị Thanh Chi",
+        "locationShort": "HCMC, VN",
+        "eyebrow": "About",
+        "titleHtml": "Stories that <em>move</em> people, brands that people <strong>trust</strong>.",
+        "startTitle": "Where it started",
+        "startBody": "I studied journalism because I wanted to tell stories that mattered to real people. Somewhere between my first reporting assignment and my first brand brief, I realised the most interesting stories were not always in the headlines. They were in how a brand shows up, day after day, in someone's feed, and whether it earns the right to stay there. That curiosity moved me from journalism into brand and social media marketing, and it has never really left.",
+        "turningTitle": "The turning points",
+        "turningBodyOne": "Lazada Vietnam taught me scale. I owned the social channels through Tet, mega sale seasons and Lazada Run, learning very quickly which stories make people stop scrolling and which ones they scroll past. TikTok Shop moved me to the other side of the table: building seller-facing channels from the ground up across Facebook, TikTok and YouTube, writing content that had to educate before it could entertain.",
+        "turningBodyTwo": "CapitaLand Development gave me the part I care most about. In the Corporate Communications and CSR team I work hands-on with the CapitaLand Hope Foundation, the Hope School Programme and Blue Dragon Children's Foundation, from planning the annual activities and managing partners to producing the films and stories that follow. It showed me what communication can do when it is built on something real.",
+        "workTitle": "How I work",
+        "philosophy": "“Start with what is true about the brand, then find the most human way to say it.”",
+        "offClockTitle": "Off the clock",
+        "offClockBody": "I run my own channels — fashion and travel — which keeps me honest about what actually works on social rather than what sounds good in a deck. Beyond that: travelling whenever I can, visiting pagodas for a quiet reset, and a long-running curiosity about Vietnamese astrology. Mandarin is a work in progress at HSK 3.",
+        "interests": {
+          "fashion": "Fashion content creator",
+          "travel": "Travel",
+          "pagodas": "Pagoda visits",
+          "astrology": "Tử vi",
+          "mandarin": "Mandarin · HSK 3"
+        }
+      },
+      "skills": {
+        "eyebrow": "Skills",
+        "titleHtml": "A working <em>constellation</em>",
+        "intro": "Every skill is a star. The bigger it burns, the more time I have spent with it — grouped into the four areas I work across, with where each one was last put to use.",
+        "hint": "Hover or tab through the stars",
+        "experience": "Experience",
+        "appliedAt": "Applied at",
+        "years": "years",
+        "yearsShort": "yrs",
+        "categories": {
+          "brand": "Brand & Strategy",
+          "social": "Social & Content",
+          "prod": "Production",
+          "comms": "Communications"
+        },
+        "nodes": {
+          "brand": {"label": "Brand strategy", "project": "Full-time and freelance brands"},
+          "campaign": {"label": "Campaign execution", "project": "All Lazada seasonal and mega campaigns"},
+          "social": {"label": "Social media ownership", "project": "Lazada, TikTok Shop, CLD Vietnam"},
+          "content": {"label": "Content strategy", "project": "TikTok Shop seller education calendar"},
+          "tiktok": {"label": "TikTok & short-form", "project": "TikTok Shop official channel — 6M views"},
+          "ugc": {"label": "UGC content", "project": "Two dedicated channels built for Unilever"},
+          "script": {"label": "Scriptwriting", "project": "FMCG and lifestyle brands"},
+          "video": {"label": "Video production direction", "project": "Corporate brand film series"},
+          "vendor": {"label": "Vendor management", "project": "Vendor and agency management"},
+          "corp": {"label": "Corporate comms", "project": "CLD Vietnam management · corporate brand films"},
+          "csr": {"label": "CSR communications", "project": "Hope School Programme & Blue Dragon"},
+          "event": {"label": "Event coordination", "project": "Lazada Run, seller workshops (HCMC & HN), project introductions"}
+        }
+      },
+      "work": {
+        "eyebrow": "Selected work",
+        "titleHtml": "Channels built, campaigns run, <em>stories</em> told",
+        "filters": {
+          "all": "All",
+          "corp": "Corporate & CSR",
+          "ecom": "E-commerce",
+          "freelance": "Freelance brands",
+          "ugc": "Own & UGC channels"
+        },
+        "groups": {
+          "corp": {"title": "Corporate communications & CSR", "where": "CapitaLand Development"},
+          "ecom": {"title": "E-commerce platforms", "where": "TikTok Shop · Lazada"},
+          "freelance": {"title": "Freelance & SME brands", "where": "Lifestyle · F&B"},
+          "ugc": {"title": "Own & UGC channels", "where": "Fashion · Travel"}
+        },
+        "cards": {
+          "corp-video": {
+            "tag": "Real estate · Corporate video",
+            "title": "Corporate video series",
+            "result": "An on-going set of interview-led series, including POVs on CLD and Customer Thoughts for LK",
+            "status": "On-going",
+            "alt": "Real Living with CLD resident story visual"
+          },
+          "csr": {
+            "tag": "Real estate · CSR",
+            "title": "Hope School Programme & Blue Dragon",
+            "result": "Two annual CSR activities delivered each year with CapitaLand Hope Foundation and Blue Dragon",
+            "status": "On-going",
+            "alt": "CapitaLand Volunteer Day — students receiving school essentials"
+          },
+          "tiktok-shop": {
+            "tag": "E-commerce · B2B channel building",
+            "title": "TikTok Shop — building the seller channel ecosystem",
+            "result": "Seller fanpage, official TikTok channel and YouTube academy: 30M impressions, 6M video views, 280K YouTube views",
+            "alt": "TikTok Shop Vietnam seller channels across Facebook, TikTok and YouTube"
+          },
+          "lazada-social": {
+            "tag": "E-commerce · B2C social",
+            "title": "Lazada Vietnam — B2C social channels",
+            "result": "55K social buzz a month, with trend-driven content across Facebook, Instagram and TikTok",
+            "alt": "Lazada Vietnam social media campaign key visuals"
+          },
+          "lazada-run": {
+            "tag": "E-commerce · Regional event",
+            "title": "Lazada Run 2023 — Vietnam to Singapore",
+            "result": "Ticket-sales communication in Vietnam, then leading six Vietnamese champions to the regional finale",
+            "alt": "Lazada Run 2023 Vietnam and Singapore campaign visuals"
+          },
+          "sunday": {
+            "tag": "Lifestyle retail · Brand strategy",
+            "title": "SUNDAY in Hoi An — brand voice & social",
+            "result": "1M organic impressions, 28K interactions and 5K organic follower growth",
+            "alt": "SUNDAY in Hoi An social media content"
+          },
+          "moments": {
+            "tag": "F&B · Social content",
+            "title": "Moments Hoi An — daily social content",
+            "result": "A warm, place-led content rhythm for a Hoi An cafe and tapas bar",
+            "alt": "Moments Hoi An cafe social media content"
+          },
+          "personal": {
+            "tag": "Personal channel · Fashion",
+            "title": "Chi Mún Mặc Đẹp",
+            "result": "14.2K likes and top videos past 170K views, with Vietnamese local brand collaborations",
+            "alt": "Chi Mún Mặc Đẹp personal TikTok fashion channel"
+          },
+          "ugc-unilever": {
+            "tag": "UGC · Built for Unilever",
+            "title": "Chi's Closet Diaries & Hey Chi, Where Next?",
+            "result": "Two dedicated channels built for Unilever — one fashion, one travel — with top videos past 57K views",
+            "status": "On-going",
+            "alt": "Chi's Closet Diaries and Hey Chi, Where Next? TikTok channels"
+          }
+        }
+      },
+      "contact": {
+        "eyebrow": "Contact",
+        "titleHtml": "Have a brand that deserves a <em>better</em> story?",
+        "lede": "The fastest way to reach me is a call. Tell me the brand, the goal and roughly when — I'll come back with what I'd do first.",
+        "value": "I help brands own their social channels instead of renting attention, turn corporate and CSR work into content people actually watch, and take video ideas from script to screen. Full-time roles, freelance projects and honest coffee chats are all welcome.",
+        "call": "Call me",
+        "emailCta": "Or send an email",
+        "emailSubject": "Let's work together",
+        "emailBody": "Hi Chi,\n\nBrand:\nWhat we need:\nTimeline:\n\n",
+        "note": "Calls and messages, GMT+7 · Emails answered within two working days",
+        "phoneLabel": "Phone",
+        "emailLabel": "Email",
+        "linkedinLabel": "LinkedIn",
+        "basedLabel": "Based in",
+        "basedValue": "Ho Chi Minh City, Vietnam"
+      },
+      "footer": {
+        "copyright": "© 2026 Nguyễn Thị Thanh Chi",
+        "role": "Brand Management · Social Media Marketing"
+      },
+      "cv": {
+        "title": "Curriculum Vitae — Nguyễn Thị Thanh Chi"
+      },
+      "cases": {
+        "corp-video": {
+          "tag": "CapitaLand Development · Corporate video",
+          "title": "Corporate video series",
+          "stats": ["On-going", "Interview-led", "Multiple series"],
+          "role": [
+            "Manage an on-going set of interview-led video series, including POVs on CLD and Customer Thoughts for LK",
+            "Design the questions and talking points, and align them with management before filming",
+            "Coordinate scheduling and logistics with everyone appearing on camera",
+            "Direct the shoot and manage vendors through production and post"
+          ],
+          "result": ["A conversational, non-corporate format that lets people speak in their own voice rather than reading a script."],
+          "linkLabels": []
+        },
+        "csr": {
+          "tag": "CapitaLand Development · CSR",
+          "title": "Hope School Programme & Blue Dragon",
+          "stats": ["2 annual CSR activities", "CapitaLand Hope Foundation", "Blue Dragon Children's Foundation"],
+          "role": [
+            "Plan and run two annual CSR activities with CapitaLand Hope Foundation and Blue Dragon",
+            "Coordinate partners, vendors and internal volunteers on site",
+            "Produce the communications that follow: photos, films, internal and external stories"
+          ],
+          "result": [
+            "CSR work told as stories rather than press releases — the part of corporate communications built on something real.",
+            "The CapitaLand Volunteer Day recap above lets the students speak for themselves, on their own blackboards."
+          ],
+          "linkLabels": []
+        },
+        "tiktok-shop": {
+          "tag": "TikTok Shop Vietnam · B2B channel building",
+          "title": "Building the seller channel ecosystem",
+          "stats": ["30M impressions", "6M video views", "~280K YouTube views", "56K followers in 3 months"],
+          "role": [
+            "<b>Seller fanpage</b> — owned Bán Hàng Cùng TikTok Shop: content planning, publishing and ads. 30M impressions, 58K interactions and 56K new followers in three months.",
+            "<b>Official TikTok channel</b> — planned, acted in and filmed trendy and educational content on policies and operations. 6M views and 33K interactions.",
+            "<b>YouTube (Học Viện TikTok Shop)</b> — set the channel strategy, wrote scripts for livestream guidance and A-to-Z onboarding, sourced seller experts and shop owners, collaborated with HTV9 and repurposed Zoom webinars. ~280K views and 10K subscribers.",
+            "Ran the monthly content calendar across all three so the channels reinforced each other rather than repeating each other."
+          ],
+          "result": ["A connected seller ecosystem: short-form for reach, fanpage for community, YouTube as the searchable education library."],
+          "linkLabels": ["@sellwithtiktokshop_vn"]
+        },
+        "lazada-social": {
+          "tag": "Lazada Vietnam · B2C social",
+          "title": "Lazada Vietnam — B2C social channels",
+          "stats": ["55K social buzz monthly", "Facebook · Instagram · TikTok"],
+          "role": [
+            "Managed Facebook, Instagram and TikTok for engagement and brand growth",
+            "Executed seasonal and trend-led campaigns (Tet, social trends, Lazada Run)",
+            "Led key visuals, TVC and video promotions",
+            "Scouted and managed KOLs, then measured campaign performance to optimise"
+          ],
+          "result": ["Lazada's social pages became trend-driven and high-engagement rather than a promo feed."],
+          "linkLabels": []
+        },
+        "lazada-run": {
+          "tag": "Lazada Vietnam · Regional event",
+          "title": "Lazada Run 2023 — Vietnam to Singapore",
+          "stats": ["Vietnam · 4.2023", "Singapore · 7.2023", "6 champions to the finale"],
+          "role": [
+            "Developed and published the communications driving ticket sales and participation",
+            "Covered the Vietnam race on site, running live communication and engagement",
+            "Led a team of six Vietnamese champions to Singapore for the regional grand finale"
+          ],
+          "result": ["A campaign that moved from feed to finish line — and then to a regional stage."],
+          "linkLabels": []
+        },
+        "sunday": {
+          "tag": "SUNDAY in Hoi An · Brand strategy",
+          "title": "SUNDAY in Hoi An — brand voice & social",
+          "stats": ["1M organic impressions", "28K interactions", "5K organic follower growth"],
+          "role": [
+            "Set the brand voice: a sincere companion tone, insight-led rather than product-first",
+            "Planned and created daily content for Facebook, Instagram, Threads and TikTok",
+            "Updated Shopee banners each sale season",
+            "Booked and managed KOL and KOC for key products"
+          ],
+          "result": ["Growth built almost entirely organically, on messaging that started from a customer pain point rather than a product feature."],
+          "linkLabels": ["Instagram"]
+        },
+        "moments": {
+          "tag": "Moments Hoi An · Social content",
+          "title": "Moments Hoi An — daily social content",
+          "stats": ["Cafe · Brunch · Tapas & Bar", "Daily content"],
+          "role": [
+            "Planned and produced all daily content across Facebook and Instagram",
+            "Built a place-led content rhythm around Hoi An's seasons and festivals",
+            "Handled customer messages and community replies"
+          ],
+          "result": ["A small F&B brand with a consistent, recognisable voice in a very crowded Hoi An feed."],
+          "linkLabels": ["Instagram"]
+        },
+        "personal": {
+          "tag": "Personal channel · Fashion",
+          "title": "Chi Mún Mặc Đẹp",
+          "stats": ["14.2K likes", "Top video 172.8K views", "Local brand collaborations"],
+          "role": [
+            "Developed and planned content around fashion reviews and styling tips",
+            "Filmed and edited everything myself",
+            "Partnered with Vietnamese local brands on featured products",
+            "Analysed audience feedback and trends to refine the content"
+          ],
+          "result": ["My own testing ground — everything I recommend to a brand, I have tried on a channel where I carry the risk."],
+          "linkLabels": ["@chimequanao"]
+        },
+        "ugc-unilever": {
+          "tag": "UGC · Built for Unilever",
+          "title": "Chi's Closet Diaries & Hey Chi, Where Next?",
+          "stats": ["2 dedicated channels", "Top video 57.6K views", "11K+ likes combined", "On-going"],
+          "role": [
+            "Built and run two dedicated UGC channels for Unilever, one in fashion and one in travel",
+            "Set the positioning and content pillars for each so they read as real creator channels, not brand accounts",
+            "Write, film and edit the content end to end",
+            "Keep both channels on-brand while staying native to how people actually watch on TikTok"
+          ],
+          "result": ["UGC that comes from a creator who also knows the brand side — so the content is native without going off-brief."],
+          "linkLabels": ["@chilookz999 — Chi's Closet Diaries", "@chionthego999 — Hey Chi, Where Next?"]
+        }
+      }
+    },
+    "vi": {
+      "meta": {
+        "title": "Nguyễn Thị Thanh Chi — Quản trị thương hiệu | Tiếp thị mạng xã hội",
+        "description": "Portfolio của Nguyễn Thị Thanh Chi — chuyên viên quản trị thương hiệu và tiếp thị mạng xã hội với kinh nghiệm tại CapitaLand Development, Lazada Vietnam và TikTok Shop Vietnam.",
+        "ogTitle": "Nguyễn Thị Thanh Chi — Quản trị thương hiệu | Tiếp thị mạng xã hội",
+        "ogDescription": "Kinh nghiệm quản lý kênh social, truyền thông doanh nghiệp, CSR và sản xuất nội dung tại CapitaLand, Lazada, TikTok Shop cùng các thương hiệu tự do."
+      },
+      "language": {
+        "selector": "Ngôn ngữ",
+        "english": "Xem trang bằng tiếng Anh",
+        "vietnamese": "Xem trang bằng tiếng Việt",
+        "changed": "Đã chuyển sang tiếng Việt"
+      },
+      "a11y": {
+        "skipWork": "Chuyển đến phần dự án nổi bật",
+        "primaryNav": "Điều hướng chính",
+        "introduction": "Giới thiệu",
+        "carousel": "băng chuyền",
+        "featuredProjects": "Các dự án nổi bật",
+        "slide": "trang",
+        "chooseSlide": "Chọn trang trình chiếu",
+        "scrollAbout": "Cuộn đến phần Giới thiệu",
+        "interests": "Sở thích",
+        "skillCategories": "Nhóm năng lực",
+        "constellationDescription": "Bản đồ năng lực tương tác theo từng nhóm. Di chuột hoặc dùng bàn phím để xem số năm kinh nghiệm và dự án đã áp dụng.",
+        "filterProjects": "Lọc dự án theo nhóm",
+        "socialProfiles": "Các kênh mạng xã hội",
+        "closeCase": "Đóng chi tiết dự án",
+        "closeCv": "Đóng bản xem trước CV",
+        "cvFrameTitle": "Xem trước CV",
+        "videoUnsupported": "Trình duyệt của bạn không hỗ trợ phát video này."
+      },
+      "nav": {
+        "about": "Giới thiệu",
+        "skills": "Năng lực",
+        "work": "Dự án",
+        "contact": "Liên hệ",
+        "previewCv": "Xem trước CV",
+        "previewPrefix": "Xem"
+      },
+      "common": {
+        "downloadCv": "Tải CV",
+        "download": "Tải xuống",
+        "viewCase": "Xem dự án",
+        "whatIDid": "Vai trò của tôi",
+        "outcome": "Kết quả"
+      },
+      "hero": {
+        "hello": "Portfolio · Thành phố Hồ Chí Minh",
+        "nameHtml": "Nguyễn Thị Thanh <span class=\"accent\">Chi</span>",
+        "roleHtml": "Quản trị thương hiệu<i aria-hidden=\"true\">/</i>Tiếp thị mạng xã hội",
+        "companies": "CapitaLand Development · TikTok Shop · Lazada Vietnam",
+        "viewWork": "Xem dự án nổi bật",
+        "contact": "Kết nối với tôi",
+        "featured": "Nổi bật",
+        "scroll": "Cuộn xuống",
+        "slides": {
+          "corp": {
+            "tag": "CapitaLand Development · Đang triển khai",
+            "title": "Chuỗi video doanh nghiệp",
+            "alt": "Hình ảnh câu chuyện cư dân trong series Real Living with CLD",
+            "ariaLabel": "Trang 1 trên 4"
+          },
+          "lazada": {
+            "tag": "Lazada Vietnam · Social B2C",
+            "title": "Làm chủ các kênh social của Lazada",
+            "alt": "Key visual và bài đăng chiến dịch trên mạng xã hội của Lazada Vietnam",
+            "ariaLabel": "Trang 2 trên 4"
+          },
+          "tiktok": {
+            "tag": "TikTok Shop Vietnam · B2B",
+            "title": "Xây hệ sinh thái kênh dành cho nhà bán hàng",
+            "alt": "Nội dung dành cho nhà bán hàng trên các kênh của TikTok Shop Vietnam",
+            "ariaLabel": "Trang 3 trên 4"
+          },
+          "freelance": {
+            "tag": "Freelance · Thương hiệu phong cách sống",
+            "title": "Nội dung cho các thương hiệu SME",
+            "alt": "Nội dung mạng xã hội tự do cho các thương hiệu phong cách sống",
+            "ariaLabel": "Trang 4 trên 4"
+          }
+        },
+        "slideButtons": {
+          "one": "Trang 1",
+          "two": "Trang 2",
+          "three": "Trang 3",
+          "four": "Trang 4"
+        }
+      },
+      "about": {
+        "portraitAlt": "Chân dung Nguyễn Thị Thanh Chi",
+        "name": "Nguyễn Thị Thanh Chi",
+        "locationShort": "TP.HCM, VN",
+        "eyebrow": "Giới thiệu",
+        "titleHtml": "Kể những câu chuyện <em>chạm</em> đến con người, xây thương hiệu được <strong>tin tưởng</strong>.",
+        "startTitle": "Điểm khởi đầu",
+        "startBody": "Tôi học báo chí vì muốn kể những câu chuyện có ý nghĩa với con người thật. Từ bài tác nghiệp đầu tiên đến đề bài thương hiệu đầu tiên, tôi nhận ra những câu chuyện thú vị nhất không phải lúc nào cũng nằm trên trang nhất. Chúng hiện diện trong cách một thương hiệu xuất hiện mỗi ngày trên dòng tin của ai đó — và liệu thương hiệu ấy có đủ chân thành để được họ giữ lại. Sự tò mò đó đưa tôi từ báo chí đến quản trị thương hiệu và tiếp thị mạng xã hội, rồi ở lại với tôi đến hôm nay.",
+        "turningTitle": "Những bước ngoặt",
+        "turningBodyOne": "Lazada Vietnam dạy tôi cách làm truyền thông ở quy mô lớn. Tôi quản lý các kênh social xuyên suốt mùa Tết, các đợt mega sale và Lazada Run, từ đó nhanh chóng hiểu câu chuyện nào khiến người xem dừng lại và câu chuyện nào bị lướt qua. TikTok Shop đưa tôi sang một góc nhìn khác: xây các kênh dành cho nhà bán hàng từ con số không trên Facebook, TikTok và YouTube, với nội dung cần giúp người xem hiểu trước khi khiến họ thấy thú vị.",
+        "turningBodyTwo": "CapitaLand Development mang đến phần công việc tôi trân trọng nhất. Trong đội ngũ Truyền thông Doanh nghiệp và CSR, tôi trực tiếp đồng hành cùng CapitaLand Hope Foundation, Hope School Programme và Blue Dragon Children's Foundation — từ lập kế hoạch hoạt động thường niên, điều phối đối tác đến sản xuất phim và những câu chuyện sau chương trình. Công việc ấy cho tôi thấy truyền thông có thể tạo ra điều gì khi được xây trên những giá trị thật.",
+        "workTitle": "Cách tôi làm việc",
+        "philosophy": "“Bắt đầu từ điều chân thật nhất về thương hiệu, rồi tìm cách gần gũi nhất để kể điều đó.”",
+        "offClockTitle": "Ngoài giờ làm",
+        "offClockBody": "Tôi vận hành các kênh nội dung riêng về thời trang và du lịch. Đó là cách tôi kiểm chứng điều gì thực sự hiệu quả trên social, thay vì chỉ hay trên slide thuyết trình. Ngoài ra, tôi thích đi đây đó mỗi khi có thể, ghé chùa để tìm một khoảng lặng và vẫn luôn tò mò về tử vi Việt Nam. Tiếng Trung của tôi hiện ở trình độ HSK 3.",
+        "interests": {
+          "fashion": "Sáng tạo nội dung thời trang",
+          "travel": "Du lịch",
+          "pagodas": "Đi chùa",
+          "astrology": "Tử vi",
+          "mandarin": "Tiếng Trung · HSK 3"
+        }
+      },
+      "skills": {
+        "eyebrow": "Năng lực",
+        "titleHtml": "Một <em>chòm sao</em> đang chuyển động",
+        "intro": "Mỗi kỹ năng là một vì sao. Ngôi sao càng lớn, tôi càng dành nhiều thời gian rèn luyện nó — được nhóm theo bốn mảng chuyên môn cùng nơi kỹ năng ấy được áp dụng gần đây nhất.",
+        "hint": "Di chuột hoặc dùng phím Tab để khám phá",
+        "experience": "Kinh nghiệm",
+        "appliedAt": "Ứng dụng tại",
+        "years": "năm",
+        "yearsShort": "năm",
+        "categories": {
+          "brand": "Thương hiệu & Chiến lược",
+          "social": "Mạng xã hội & Nội dung",
+          "prod": "Sản xuất",
+          "comms": "Truyền thông"
+        },
+        "nodes": {
+          "brand": {"label": "Chiến lược thương hiệu", "project": "Thương hiệu toàn thời gian và freelance"},
+          "campaign": {"label": "Triển khai chiến dịch", "project": "Các chiến dịch mùa vụ và mega campaign của Lazada"},
+          "social": {"label": "Quản lý kênh social", "project": "Lazada, TikTok Shop, CLD Vietnam"},
+          "content": {"label": "Chiến lược nội dung", "project": "Lịch nội dung đào tạo nhà bán hàng TikTok Shop"},
+          "tiktok": {"label": "TikTok & video ngắn", "project": "Kênh TikTok Shop chính thức — 6 triệu lượt xem"},
+          "ugc": {"label": "Nội dung UGC", "project": "Hai kênh chuyên biệt xây dựng cho Unilever"},
+          "script": {"label": "Viết kịch bản", "project": "Các thương hiệu FMCG và phong cách sống"},
+          "video": {"label": "Định hướng sản xuất video", "project": "Chuỗi phim thương hiệu doanh nghiệp"},
+          "vendor": {"label": "Quản lý đối tác", "project": "Quản lý vendor và agency"},
+          "corp": {"label": "Truyền thông doanh nghiệp", "project": "Ban lãnh đạo CLD Vietnam · phim thương hiệu doanh nghiệp"},
+          "csr": {"label": "Truyền thông CSR", "project": "Hope School Programme & Blue Dragon"},
+          "event": {"label": "Điều phối sự kiện", "project": "Lazada Run, workshop nhà bán hàng (TP.HCM & Hà Nội), giới thiệu dự án"}
+        }
+      },
+      "work": {
+        "eyebrow": "Dự án nổi bật",
+        "titleHtml": "Xây kênh, triển khai chiến dịch, kể những <em>câu chuyện</em> đáng nhớ",
+        "filters": {
+          "all": "Tất cả",
+          "corp": "Doanh nghiệp & CSR",
+          "ecom": "Thương mại điện tử",
+          "freelance": "Thương hiệu freelance",
+          "ugc": "Kênh cá nhân & UGC"
+        },
+        "groups": {
+          "corp": {"title": "Truyền thông doanh nghiệp & CSR", "where": "CapitaLand Development"},
+          "ecom": {"title": "Nền tảng thương mại điện tử", "where": "TikTok Shop · Lazada"},
+          "freelance": {"title": "Freelance & thương hiệu SME", "where": "Phong cách sống · F&B"},
+          "ugc": {"title": "Kênh cá nhân & UGC", "where": "Thời trang · Du lịch"}
+        },
+        "cards": {
+          "corp-video": {
+            "tag": "Bất động sản · Video doanh nghiệp",
+            "title": "Chuỗi video doanh nghiệp",
+            "result": "Chuỗi nội dung phỏng vấn đang triển khai, gồm POVs on CLD và Customer Thoughts for LK",
+            "status": "Đang triển khai",
+            "alt": "Hình ảnh câu chuyện cư dân trong Real Living with CLD"
+          },
+          "csr": {
+            "tag": "Bất động sản · CSR",
+            "title": "Hope School Programme & Blue Dragon",
+            "result": "Hai hoạt động CSR thường niên cùng CapitaLand Hope Foundation và Blue Dragon",
+            "status": "Đang triển khai",
+            "alt": "CapitaLand Volunteer Day — học sinh nhận vật dụng học tập thiết yếu"
+          },
+          "tiktok-shop": {
+            "tag": "Thương mại điện tử · Xây kênh B2B",
+            "title": "TikTok Shop — xây hệ sinh thái kênh dành cho nhà bán hàng",
+            "result": "Fanpage nhà bán hàng, kênh TikTok chính thức và học viện YouTube: 30 triệu lượt hiển thị, 6 triệu lượt xem video, 280 nghìn lượt xem YouTube",
+            "alt": "Hệ thống kênh dành cho nhà bán hàng TikTok Shop Vietnam trên Facebook, TikTok và YouTube"
+          },
+          "lazada-social": {
+            "tag": "Thương mại điện tử · Social B2C",
+            "title": "Lazada Vietnam — các kênh social B2C",
+            "result": "55 nghìn lượt thảo luận social mỗi tháng với nội dung bắt nhịp xu hướng trên Facebook, Instagram và TikTok",
+            "alt": "Key visual chiến dịch mạng xã hội của Lazada Vietnam"
+          },
+          "lazada-run": {
+            "tag": "Thương mại điện tử · Sự kiện khu vực",
+            "title": "Lazada Run 2023 — từ Việt Nam đến Singapore",
+            "result": "Truyền thông bán vé tại Việt Nam, sau đó dẫn đoàn sáu nhà vô địch Việt Nam đến vòng chung kết khu vực",
+            "alt": "Hình ảnh chiến dịch Lazada Run 2023 tại Việt Nam và Singapore"
+          },
+          "sunday": {
+            "tag": "Bán lẻ phong cách sống · Chiến lược thương hiệu",
+            "title": "SUNDAY in Hoi An — tiếng nói thương hiệu & social",
+            "result": "1 triệu lượt hiển thị tự nhiên, 28 nghìn lượt tương tác và tăng 5 nghìn người theo dõi tự nhiên",
+            "alt": "Nội dung mạng xã hội của SUNDAY in Hoi An"
+          },
+          "moments": {
+            "tag": "F&B · Nội dung social",
+            "title": "Moments Hoi An — nội dung social hằng ngày",
+            "result": "Nhịp nội dung ấm áp, giàu bản sắc địa phương cho một quán cà phê và tapas bar tại Hội An",
+            "alt": "Nội dung mạng xã hội của quán Moments Hoi An"
+          },
+          "personal": {
+            "tag": "Kênh cá nhân · Thời trang",
+            "title": "Chi Mún Mặc Đẹp",
+            "result": "14,2 nghìn lượt thích, video nổi bật vượt 170 nghìn lượt xem và các hợp tác cùng local brand Việt Nam",
+            "alt": "Kênh TikTok thời trang cá nhân Chi Mún Mặc Đẹp"
+          },
+          "ugc-unilever": {
+            "tag": "UGC · Xây dựng cho Unilever",
+            "title": "Chi's Closet Diaries & Hey Chi, Where Next?",
+            "result": "Hai kênh riêng cho Unilever — một về thời trang, một về du lịch — với video nổi bật vượt 57 nghìn lượt xem",
+            "status": "Đang triển khai",
+            "alt": "Các kênh TikTok Chi's Closet Diaries và Hey Chi, Where Next?"
+          }
+        }
+      },
+      "contact": {
+        "eyebrow": "Liên hệ",
+        "titleHtml": "Bạn có một thương hiệu xứng đáng với một câu chuyện <em>hay hơn</em>?",
+        "lede": "Cách nhanh nhất để liên hệ với tôi là một cuộc gọi. Hãy chia sẻ thương hiệu, mục tiêu và thời gian dự kiến — tôi sẽ phản hồi bằng điều mình nghĩ nên làm trước tiên.",
+        "value": "Tôi giúp thương hiệu thật sự làm chủ các kênh social thay vì chỉ thuê sự chú ý, biến hoạt động doanh nghiệp và CSR thành nội dung mọi người muốn xem, đồng thời đưa ý tưởng video từ kịch bản lên màn hình. Tôi luôn sẵn sàng trao đổi về vị trí toàn thời gian, dự án freelance hoặc một buổi cà phê cởi mở.",
+        "call": "Gọi cho tôi",
+        "emailCta": "Hoặc gửi email",
+        "emailSubject": "Cùng hợp tác với Chi",
+        "emailBody": "Chào Chi,\n\nThương hiệu:\nNhu cầu của chúng tôi:\nThời gian dự kiến:\n\n",
+        "note": "Cuộc gọi và tin nhắn, GMT+7 · Email được phản hồi trong hai ngày làm việc",
+        "phoneLabel": "Điện thoại",
+        "emailLabel": "Email",
+        "linkedinLabel": "LinkedIn",
+        "basedLabel": "Đang sống tại",
+        "basedValue": "Thành phố Hồ Chí Minh, Việt Nam"
+      },
+      "footer": {
+        "copyright": "© 2026 Nguyễn Thị Thanh Chi",
+        "role": "Quản trị thương hiệu · Tiếp thị mạng xã hội"
+      },
+      "cv": {
+        "title": "CV — Nguyễn Thị Thanh Chi"
+      },
+      "cases": {
+        "corp-video": {
+          "tag": "CapitaLand Development · Video doanh nghiệp",
+          "title": "Chuỗi video doanh nghiệp",
+          "stats": ["Đang triển khai", "Lấy phỏng vấn làm trọng tâm", "Nhiều chuỗi nội dung"],
+          "role": [
+            "Quản lý các chuỗi video phỏng vấn đang triển khai, gồm POVs on CLD và Customer Thoughts for LK",
+            "Xây dựng câu hỏi và thông điệp trọng tâm, đồng thời thống nhất với ban lãnh đạo trước buổi quay",
+            "Điều phối lịch trình và hậu cần cho tất cả nhân vật xuất hiện trước máy quay",
+            "Định hướng buổi quay và quản lý đối tác xuyên suốt quá trình sản xuất, hậu kỳ"
+          ],
+          "result": ["Một định dạng trò chuyện gần gũi, không nặng tính doanh nghiệp, để mỗi nhân vật được nói bằng tiếng nói của chính mình thay vì đọc kịch bản."],
+          "linkLabels": []
+        },
+        "csr": {
+          "tag": "CapitaLand Development · CSR",
+          "title": "Hope School Programme & Blue Dragon",
+          "stats": ["2 hoạt động CSR thường niên", "CapitaLand Hope Foundation", "Blue Dragon Children's Foundation"],
+          "role": [
+            "Lập kế hoạch và triển khai hai hoạt động CSR thường niên cùng CapitaLand Hope Foundation và Blue Dragon",
+            "Điều phối đối tác, vendor và tình nguyện viên nội bộ tại hiện trường",
+            "Sản xuất nội dung truyền thông sau chương trình: hình ảnh, phim cùng các câu chuyện nội bộ và bên ngoài"
+          ],
+          "result": [
+            "Kể hoạt động CSR bằng những câu chuyện thay vì thông cáo báo chí — phần truyền thông doanh nghiệp được xây trên những giá trị thật.",
+            "Video tổng kết CapitaLand Volunteer Day phía trên để các em học sinh tự kể câu chuyện của mình trên chính những tấm bảng cá nhân."
+          ],
+          "linkLabels": []
+        },
+        "tiktok-shop": {
+          "tag": "TikTok Shop Vietnam · Xây kênh B2B",
+          "title": "Xây hệ sinh thái kênh dành cho nhà bán hàng",
+          "stats": ["30 triệu lượt hiển thị", "6 triệu lượt xem video", "~280 nghìn lượt xem YouTube", "56 nghìn người theo dõi trong 3 tháng"],
+          "role": [
+            "<b>Fanpage nhà bán hàng</b> — phụ trách Bán Hàng Cùng TikTok Shop từ lập kế hoạch nội dung, xuất bản đến quảng cáo. Kết quả đạt 30 triệu lượt hiển thị, 58 nghìn lượt tương tác và 56 nghìn người theo dõi mới trong ba tháng.",
+            "<b>Kênh TikTok chính thức</b> — lên kế hoạch, tham gia diễn xuất và quay nội dung bắt xu hướng kết hợp hướng dẫn về chính sách, vận hành. Kết quả đạt 6 triệu lượt xem và 33 nghìn lượt tương tác.",
+            "<b>YouTube (Học Viện TikTok Shop)</b> — xây chiến lược kênh, viết kịch bản hướng dẫn livestream và onboarding từ A đến Z, kết nối chuyên gia cùng chủ shop, hợp tác với HTV9 và tái sử dụng webinar Zoom. Kết quả đạt khoảng 280 nghìn lượt xem và 10 nghìn người đăng ký.",
+            "Vận hành lịch nội dung hằng tháng để cả ba kênh bổ trợ cho nhau thay vì lặp lại cùng một thông điệp."
+          ],
+          "result": ["Một hệ sinh thái nhà bán hàng liền mạch: video ngắn tạo độ phủ, fanpage xây cộng đồng và YouTube trở thành thư viện kiến thức có thể tìm kiếm."],
+          "linkLabels": ["@sellwithtiktokshop_vn"]
+        },
+        "lazada-social": {
+          "tag": "Lazada Vietnam · Social B2C",
+          "title": "Lazada Vietnam — các kênh social B2C",
+          "stats": ["55 nghìn lượt thảo luận social mỗi tháng", "Facebook · Instagram · TikTok"],
+          "role": [
+            "Quản lý Facebook, Instagram và TikTok nhằm tăng tương tác và phát triển thương hiệu",
+            "Triển khai các chiến dịch theo mùa vụ và xu hướng như Tết, social trend và Lazada Run",
+            "Phụ trách key visual, TVC và nội dung quảng bá video",
+            "Tìm kiếm, quản lý KOL, sau đó đo lường hiệu quả chiến dịch để tối ưu"
+          ],
+          "result": ["Các trang social của Lazada trở nên bắt nhịp xu hướng và giàu tương tác, thay vì chỉ là một bảng tin khuyến mãi."],
+          "linkLabels": []
+        },
+        "lazada-run": {
+          "tag": "Lazada Vietnam · Sự kiện khu vực",
+          "title": "Lazada Run 2023 — từ Việt Nam đến Singapore",
+          "stats": ["Việt Nam · 4.2023", "Singapore · 7.2023", "6 nhà vô địch đến vòng chung kết"],
+          "role": [
+            "Phát triển và xuất bản nội dung truyền thông thúc đẩy doanh số vé cùng lượng người tham gia",
+            "Tác nghiệp trực tiếp tại chặng đua Việt Nam, phụ trách truyền thông và tương tác theo thời gian thực",
+            "Dẫn đoàn sáu nhà vô địch Việt Nam đến Singapore tham dự vòng chung kết khu vực"
+          ],
+          "result": ["Một chiến dịch đi từ dòng tin đến vạch đích — rồi tiếp tục bước lên sân khấu khu vực."],
+          "linkLabels": []
+        },
+        "sunday": {
+          "tag": "SUNDAY in Hoi An · Chiến lược thương hiệu",
+          "title": "SUNDAY in Hoi An — tiếng nói thương hiệu & social",
+          "stats": ["1 triệu lượt hiển thị tự nhiên", "28 nghìn lượt tương tác", "Tăng 5 nghìn người theo dõi tự nhiên"],
+          "role": [
+            "Định hình tiếng nói thương hiệu như một người bạn chân thành, bắt đầu từ insight thay vì đặt sản phẩm lên trước",
+            "Lập kế hoạch và sáng tạo nội dung hằng ngày cho Facebook, Instagram, Threads và TikTok",
+            "Cập nhật banner Shopee theo từng mùa sale",
+            "Booking và quản lý KOL, KOC cho các sản phẩm trọng điểm"
+          ],
+          "result": ["Tăng trưởng gần như hoàn toàn tự nhiên nhờ thông điệp bắt đầu từ nỗi đau của khách hàng thay vì tính năng sản phẩm."],
+          "linkLabels": ["Instagram"]
+        },
+        "moments": {
+          "tag": "Moments Hoi An · Nội dung social",
+          "title": "Moments Hoi An — nội dung social hằng ngày",
+          "stats": ["Cafe · Brunch · Tapas & Bar", "Nội dung hằng ngày"],
+          "role": [
+            "Lập kế hoạch và sản xuất toàn bộ nội dung hằng ngày trên Facebook và Instagram",
+            "Xây nhịp nội dung giàu bản sắc địa phương theo mùa và lễ hội của Hội An",
+            "Phản hồi tin nhắn khách hàng và tương tác với cộng đồng"
+          ],
+          "result": ["Một thương hiệu F&B nhỏ với tiếng nói nhất quán, dễ nhận diện giữa dòng tin đông đúc tại Hội An."],
+          "linkLabels": ["Instagram"]
+        },
+        "personal": {
+          "tag": "Kênh cá nhân · Thời trang",
+          "title": "Chi Mún Mặc Đẹp",
+          "stats": ["14,2 nghìn lượt thích", "Video nổi bật đạt 172,8 nghìn lượt xem", "Hợp tác cùng local brand"],
+          "role": [
+            "Phát triển và lập kế hoạch nội dung xoay quanh review thời trang cùng mẹo phối đồ",
+            "Tự thực hiện toàn bộ quá trình quay và dựng",
+            "Hợp tác với các local brand Việt Nam để giới thiệu sản phẩm",
+            "Phân tích phản hồi khán giả và xu hướng nhằm liên tục tinh chỉnh nội dung"
+          ],
+          "result": ["Phòng thử nghiệm của riêng tôi — mọi điều tư vấn cho thương hiệu đều đã được tôi kiểm chứng trên một kênh mà chính mình chịu trách nhiệm cho kết quả."],
+          "linkLabels": ["@chimequanao"]
+        },
+        "ugc-unilever": {
+          "tag": "UGC · Xây dựng cho Unilever",
+          "title": "Chi's Closet Diaries & Hey Chi, Where Next?",
+          "stats": ["2 kênh chuyên biệt", "Video nổi bật đạt 57,6 nghìn lượt xem", "Tổng cộng hơn 11 nghìn lượt thích", "Đang triển khai"],
+          "role": [
+            "Xây dựng và vận hành hai kênh UGC chuyên biệt cho Unilever, một kênh thời trang và một kênh du lịch",
+            "Xác lập định vị và trụ cột nội dung để mỗi kênh mang tinh thần của một nhà sáng tạo thực thụ, không giống tài khoản thương hiệu",
+            "Tự viết, quay và dựng nội dung từ đầu đến cuối",
+            "Giữ cả hai kênh đúng định hướng thương hiệu nhưng vẫn tự nhiên với cách người dùng xem TikTok"
+          ],
+          "result": ["UGC được tạo bởi một creator hiểu cả phía thương hiệu — nội dung vì thế vừa tự nhiên trên nền tảng, vừa không đi chệch brief."],
+          "linkLabels": ["@chilookz999 — Chi's Closet Diaries", "@chionthego999 — Hey Chi, Where Next?"]
+        }
+      }
+    }
+  }
+}
