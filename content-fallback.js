@@ -218,7 +218,7 @@ window.PORTFOLIO_CONTENT = {
           "corp-video": {
             "tag": "Real estate · Corporate video",
             "title": "Corporate video series",
-            "result": "An on-going set of interview-led series, including POVs on CLD and Customer Thoughts for LK",
+            "result": "An on-going set of interview-led series, including POV on CLD and Customer Thoughts for LK",
             "status": "On-going",
             "alt": "Real Living with CLD resident story visual"
           },
@@ -307,7 +307,7 @@ window.PORTFOLIO_CONTENT = {
             "Multiple series"
           ],
           "role": [
-            "Manage an on-going set of interview-led video series, including POVs on CLD and Customer Thoughts for LK",
+            "Manage an on-going set of interview-led video series, including POV on CLD and Customer Thoughts for LK",
             "Design the questions and talking points, and align them with management before filming",
             "Coordinate scheduling and logistics with everyone appearing on camera",
             "Direct the shoot and manage vendors through production and post"
@@ -315,7 +315,11 @@ window.PORTFOLIO_CONTENT = {
           "result": [
             "A conversational, non-corporate format that lets people speak in their own voice rather than reading a script."
           ],
-          "linkLabels": []
+          "linkLabels": [
+            "POV on CLD · Ep 1 — Muội, resident pet",
+            "POV on CLD · Ep 2 — Hiroshi Matsuura, Mitsubishi Estate",
+            "POV on CLD · Ep 3 — Việt Anh, property consultant"
+          ]
         },
         "csr": {
           "tag": "CapitaLand Development · CSR",
@@ -690,7 +694,7 @@ window.PORTFOLIO_CONTENT = {
           "corp-video": {
             "tag": "Bất động sản · Video doanh nghiệp",
             "title": "Chuỗi video doanh nghiệp",
-            "result": "Chuỗi nội dung phỏng vấn đang triển khai, gồm POVs on CLD và Customer Thoughts for LK",
+            "result": "Chuỗi nội dung phỏng vấn đang triển khai, gồm POV on CLD và Customer Thoughts for LK",
             "status": "Đang triển khai",
             "alt": "Hình ảnh câu chuyện cư dân trong Real Living with CLD"
           },
@@ -779,7 +783,7 @@ window.PORTFOLIO_CONTENT = {
             "Nhiều chuỗi nội dung"
           ],
           "role": [
-            "Quản lý các chuỗi video phỏng vấn đang triển khai, gồm POVs on CLD và Customer Thoughts for LK",
+            "Quản lý các chuỗi video phỏng vấn đang triển khai, gồm POV on CLD và Customer Thoughts for LK",
             "Xây dựng câu hỏi và thông điệp trọng tâm, đồng thời thống nhất với ban lãnh đạo trước buổi quay",
             "Điều phối lịch trình và hậu cần cho tất cả nhân vật xuất hiện trước máy quay",
             "Định hướng buổi quay và quản lý đối tác xuyên suốt quá trình sản xuất, hậu kỳ"
@@ -787,7 +791,11 @@ window.PORTFOLIO_CONTENT = {
           "result": [
             "Một định dạng trò chuyện gần gũi, không nặng tính doanh nghiệp, để mỗi nhân vật được nói bằng tiếng nói của chính mình thay vì đọc kịch bản."
           ],
-          "linkLabels": []
+          "linkLabels": [
+            "POV on CLD · Tập 1 — Muội, cư dân nhí",
+            "POV on CLD · Tập 2 — Hiroshi Matsuura, Mitsubishi Estate",
+            "POV on CLD · Tập 3 — Việt Anh, tư vấn viên BĐS"
+          ]
         },
         "csr": {
           "tag": "CapitaLand Development · CSR",
