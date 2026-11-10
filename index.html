@@ -141,6 +141,9 @@ a{color:inherit}
 .carousel__cap{position:absolute;inset:auto 0 0 0;padding:1.6rem 1.3rem 1.2rem;color:#fff;background:linear-gradient(to top,rgba(20,16,14,.85),transparent)}
 .carousel__cap small{font-family:var(--mono);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;opacity:.9}
 .carousel__cap strong{display:block;font-family:var(--display);font-weight:500;font-size:1.12rem;line-height:1.3;margin-top:.35rem}
+.carousel__slide--poster{display:flex;flex-direction:column;background:#f5f5f5}
+.carousel__slide--poster img{flex:1;min-height:0;height:0;object-fit:contain}
+.carousel__slide--poster .carousel__cap{position:static;flex-shrink:0;padding:.7rem 1.3rem;background:#063db6}
 .slide-ph{width:100%;height:100%;background:linear-gradient(150deg,#F2705D,#8f3a2c);display:flex;align-items:center;justify-content:center}
 .slide-ph span{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.75);border:1px dashed rgba(255,255,255,.5);padding:.55rem 1rem;border-radius:8px}
 .carousel__dots{position:absolute;left:50%;bottom:-2rem;transform:translateX(-50%);display:flex;gap:.45rem}
@@ -251,7 +254,7 @@ a{color:inherit}
 .card.in{opacity:1;transform:none}
 .card:hover{box-shadow:0 30px 50px -32px rgba(36,31,28,.45)}
 .card__media{position:relative;overflow:hidden;background:var(--sand)}
-.card__media img{width:100%;transition:transform .8s var(--ease)}
+.card__media img{width:100%;height:auto;transition:transform .8s var(--ease)}
 .card:hover .card__media img{transform:scale(1.05)}
 .card__ph{aspect-ratio:16/10;display:flex;align-items:flex-end;padding:1.1rem;color:rgba(255,255,255,.8);font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase}
 .card__overlay{position:absolute;inset:0;background:rgba(36,31,28,.55);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .4s}
@@ -283,6 +286,7 @@ a{color:inherit}
 .modal__close{position:absolute;top:1rem;right:1rem;width:38px;height:38px;border-radius:50%;border:1.5px solid var(--oat);background:var(--linen);cursor:pointer;font-size:1.1rem;line-height:1;color:var(--ink);z-index:2;transition:background .3s,color .3s}
 .modal__close:hover{background:var(--ink);color:var(--linen)}
 .modal__cover img{width:100%;max-height:280px;object-fit:cover;border-radius:var(--radius) var(--radius) 0 0}
+.modal__cover.is-poster img{max-height:min(60vh,500px);object-fit:contain;background:#f5f5f5}
 .modal__cover video{display:block;width:auto;max-width:100%;max-height:70vh;margin:0 auto;background:#000}
 .modal__cover.is-video{background:#141110;border-radius:var(--radius) var(--radius) 0 0;overflow:hidden}
 .modal__body{padding:1.8rem clamp(1.25rem,4vw,2.4rem) 2.2rem}
@@ -404,8 +408,8 @@ a{color:inherit}
         <div class="hero__slot">
           <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Featured projects" data-i18n-aria-roledescription="a11y.carousel" data-i18n-aria-label="a11y.featuredProjects">
 
-            <div class="carousel__slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 4" data-i18n-aria-roledescription="a11y.slide" data-i18n-aria-label="hero.slides.corp.ariaLabel">
-              <img src="assets/corp-video-cover.jpg" alt="Real Living with CLD resident story visuals" data-i18n-alt="hero.slides.corp.alt">
+            <div class="carousel__slide is-active carousel__slide--poster" role="group" aria-roledescription="slide" aria-label="1 of 4" data-i18n-aria-roledescription="a11y.slide" data-i18n-aria-label="hero.slides.corp.ariaLabel">
+              <img src="./assets/corp-video-pov-cld.png" width="800" height="1000" alt="POV on CLD — Through Different Lenses series artwork" data-i18n-alt="hero.slides.corp.alt">
               <div class="carousel__cap"><small data-i18n="hero.slides.corp.tag">CapitaLand Development · On-going</small><strong data-i18n="hero.slides.corp.title">Corporate video series</strong></div>
             </div>
 
@@ -544,7 +548,7 @@ a{color:inherit}
 
       <article class="card" data-case="corp-video">
         <div class="card__media">
-          <img src="assets/corp-video.jpg" alt="Real Living with CLD resident story visual">
+          <img src="./assets/corp-video-pov-cld.png" width="800" height="1000" alt="POV on CLD — Through Different Lenses series artwork">
           <div class="card__overlay"><button class="btn btn--coral" type="button">View case study</button></div>
         </div>
         <div class="card__body">
@@ -1064,7 +1068,8 @@ const CASES={
   'corp-video':{
     tag:'CapitaLand Development · Corporate video',
     title:'Corporate video series',
-    cover:'assets/corp-video-cover.jpg',
+    cover:'./assets/corp-video-pov-cld.png',
+    coverFit:'contain',
     stats:['On-going','Interview-led','Multiple series'],
     role:['Manage an on-going set of interview-led video series, including POV on CLD and Customer Thoughts for LK','Design the questions and talking points, and align them with management before filming','Coordinate scheduling and logistics with everyone appearing on camera','Direct the shoot and manage vendors through production and post'],
     result:['A conversational, non-corporate format that lets people speak in their own voice rather than reading a script.'],
@@ -1228,6 +1233,7 @@ const CASES={
     document.getElementById('modalTitle').textContent=d.title;
     const coverEl=document.getElementById('modalCover');
     coverEl.classList.toggle('is-video',!!d.video);
+    coverEl.classList.toggle('is-poster',d.coverFit==='contain');
     coverEl.innerHTML = d.video
       ? `<video controls playsinline preload="metadata" poster="${d.cover||''}"><source src="${d.video}" type="video/mp4">${window.portfolioI18n.t('a11y.videoUnsupported',"Your browser can't play this video.")}</video>`
       : (d.cover?`<img src="${d.cover}" alt="">`:'');

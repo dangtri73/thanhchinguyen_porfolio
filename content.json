@@ -66,7 +66,7 @@
           "corp": {
             "tag": "CapitaLand Development · On-going",
             "title": "Corporate video series",
-            "alt": "Real Living with CLD resident story visuals",
+            "alt": "POV on CLD — Through Different Lenses series artwork",
             "ariaLabel": "1 of 4"
           },
           "lazada": {
@@ -218,7 +218,7 @@
             "title": "Corporate video series",
             "result": "An on-going set of interview-led series, including POV on CLD and Customer Thoughts for LK",
             "status": "On-going",
-            "alt": "Real Living with CLD resident story visual"
+            "alt": "POV on CLD — Through Different Lenses series artwork"
           },
           "csr": {
             "tag": "Real estate · CSR",
@@ -542,7 +542,7 @@
           "corp": {
             "tag": "CapitaLand Development · Đang triển khai",
             "title": "Chuỗi video doanh nghiệp",
-            "alt": "Hình ảnh câu chuyện cư dân trong series Real Living with CLD",
+            "alt": "Hình ảnh chuỗi Góc nhìn đa chiều về CLD — POV on CLD",
             "ariaLabel": "Trang 1 trên 4"
           },
           "lazada": {
@@ -694,7 +694,7 @@
             "title": "Chuỗi video doanh nghiệp",
             "result": "Chuỗi nội dung phỏng vấn đang triển khai, gồm POV on CLD và Customer Thoughts for LK",
             "status": "Đang triển khai",
-            "alt": "Hình ảnh câu chuyện cư dân trong Real Living with CLD"
+            "alt": "Hình ảnh chuỗi Góc nhìn đa chiều về CLD — POV on CLD"
           },
           "csr": {
             "tag": "Bất động sản · CSR",
