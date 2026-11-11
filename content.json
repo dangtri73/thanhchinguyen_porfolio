@@ -101,20 +101,38 @@
         "locationShort": "HCMC, VN",
         "eyebrow": "About",
         "titleHtml": "Stories that <em>move</em> people, brands that people <strong>trust</strong>.",
-        "startTitle": "Where it started",
-        "startBody": "I studied journalism because I wanted to tell stories that mattered to real people. Somewhere between my first reporting assignment and my first brand brief, I realised the most interesting stories were not always in the headlines. They were in how a brand shows up, day after day, in someone's feed, and whether it earns the right to stay there. That curiosity moved me from journalism into brand and social media marketing, and it has never really left.",
-        "turningTitle": "The turning points",
-        "turningBodyOne": "Lazada Vietnam taught me scale. I owned the social channels through Tet, mega sale seasons and Lazada Run, learning very quickly which stories make people stop scrolling and which ones they scroll past. TikTok Shop moved me to the other side of the table: building seller-facing channels from the ground up across Facebook, TikTok and YouTube, writing content that had to educate before it could entertain.",
-        "turningBodyTwo": "CapitaLand Development gave me the part I care most about. As a Social Communications executive on the Corporate Communications team, I run three social channels covering the business, turning CLD leadership thoughts and customer interviews into stories. On the CSR side, I work with the CapitaLand Hope Foundation and Blue Dragon Children's Foundation, hosting weekend mini-events and running the annual Hope School Programme. It showed me what communication can do when it is built on something real.",
+        "startTitle": "In short",
+        "startBodyHtml": "Brand and social media marketer with 5 years across e-commerce, social commerce and a multinational developer. I own channels end-to-end and turn brand strategy into content people actually watch: <strong>50M+</strong> monthly views at Lazada, and a channel built from zero to <strong>70M</strong> views in 2 months at TikTok Shop.",
+        "scopeTitle": "Main scope",
+        "scope": {
+          "social": {
+            "title": "Social media management",
+            "body": "Facebook, Instagram, TikTok, Threads: strategy, calendar, community."
+          },
+          "brand": {
+            "title": "Branding & campaigns",
+            "body": "Integrated ATL/BTL/digital campaigns, brand guidelines, CSR activations."
+          },
+          "content": {
+            "title": "Content production",
+            "body": "Scripting, shooting and editing short video; key visuals; copywriting."
+          },
+          "kol": {
+            "title": "KOL & agency management",
+            "body": "Macro-to-nano creators, Facebook Ads, agency briefs and quality control."
+          },
+          "research": {
+            "title": "Research & analytics",
+            "body": "Consumer and market research."
+          }
+        },
         "workTitle": "How I work",
         "philosophy": "“Start with what is true about the brand, then find the most human way to say it.”",
         "offClockTitle": "Off the clock",
-        "offClockBody": "I run my own channels — fashion and travel — which keeps me honest about what actually works on social rather than what sounds good in a deck. Beyond that: travelling whenever I can, visiting pagodas for a quiet reset, and a long-running curiosity about Vietnamese astrology. Mandarin is a work in progress at HSK 3.",
         "interests": {
-          "fashion": "Fashion content creator",
+          "fashion": "Lifestyle, FMCG & fashion content creator",
+          "remote": "Remote projects · European market",
           "travel": "Travel",
-          "pagodas": "Pagoda visits",
-          "astrology": "Tử vi",
           "mandarin": "Mandarin · HSK 3"
         }
       },
@@ -577,20 +595,38 @@
         "locationShort": "TP.HCM, VN",
         "eyebrow": "Giới thiệu",
         "titleHtml": "Kể những câu chuyện <em>chạm</em> đến con người, xây thương hiệu được <strong>tin tưởng</strong>.",
-        "startTitle": "Điểm khởi đầu",
-        "startBody": "Tôi học báo chí vì muốn kể những câu chuyện có ý nghĩa với con người thật. Từ bài tác nghiệp đầu tiên đến đề bài thương hiệu đầu tiên, tôi nhận ra những câu chuyện thú vị nhất không phải lúc nào cũng nằm trên trang nhất. Chúng hiện diện trong cách một thương hiệu xuất hiện mỗi ngày trên dòng tin của ai đó — và liệu thương hiệu ấy có đủ chân thành để được họ giữ lại. Sự tò mò đó đưa tôi từ báo chí đến quản trị thương hiệu và tiếp thị mạng xã hội, rồi ở lại với tôi đến hôm nay.",
-        "turningTitle": "Những bước ngoặt",
-        "turningBodyOne": "Lazada Vietnam dạy tôi cách làm truyền thông ở quy mô lớn. Tôi quản lý các kênh social xuyên suốt mùa Tết, các đợt mega sale và Lazada Run, từ đó nhanh chóng hiểu câu chuyện nào khiến người xem dừng lại và câu chuyện nào bị lướt qua. TikTok Shop đưa tôi sang một góc nhìn khác: xây các kênh dành cho nhà bán hàng từ con số không trên Facebook, TikTok và YouTube, với nội dung cần giúp người xem hiểu trước khi khiến họ thấy thú vị.",
-        "turningBodyTwo": "CapitaLand Development mang đến phần công việc tôi trân trọng nhất. Là chuyên viên Truyền thông Xã hội (Social Communications) thuộc đội Truyền thông Doanh nghiệp, tôi quản lý ba kênh social về hoạt động kinh doanh, biến những chia sẻ của ban lãnh đạo CLD và các buổi phỏng vấn khách hàng thành nội dung. Về mảng CSR, tôi đồng hành cùng CapitaLand Hope Foundation và Blue Dragon Children's Foundation, tổ chức các mini-event cuối tuần và triển khai chương trình Hope School Programme hàng năm. Công việc ấy cho tôi thấy truyền thông có thể tạo ra điều gì khi được xây trên những giá trị thật.",
+        "startTitle": "Tóm tắt",
+        "startBodyHtml": "Chuyên viên thương hiệu và tiếp thị mạng xã hội với 5 năm kinh nghiệm trong thương mại điện tử, social commerce và tập đoàn bất động sản đa quốc gia. Tôi phụ trách kênh từ đầu đến cuối và biến chiến lược thương hiệu thành nội dung người xem thật sự dừng lại: hơn <strong>50M</strong> lượt xem mỗi tháng tại Lazada, và một kênh xây từ con số 0 lên <strong>70M</strong> lượt xem trong 2 tháng tại TikTok Shop.",
+        "scopeTitle": "Phạm vi công việc chính",
+        "scope": {
+          "social": {
+            "title": "Quản lý mạng xã hội",
+            "body": "Facebook, Instagram, TikTok, Threads: chiến lược, lịch nội dung, cộng đồng."
+          },
+          "brand": {
+            "title": "Thương hiệu & chiến dịch",
+            "body": "Chiến dịch tích hợp ATL/BTL/digital, bộ nhận diện thương hiệu, hoạt động CSR."
+          },
+          "content": {
+            "title": "Sản xuất nội dung",
+            "body": "Viết kịch bản, quay và dựng video ngắn; key visual; copywriting."
+          },
+          "kol": {
+            "title": "Quản lý KOL & agency",
+            "body": "Creator từ macro đến nano, Facebook Ads, brief và kiểm soát chất lượng agency."
+          },
+          "research": {
+            "title": "Nghiên cứu & phân tích",
+            "body": "Nghiên cứu người tiêu dùng và thị trường."
+          }
+        },
         "workTitle": "Cách tôi làm việc",
         "philosophy": "“Bắt đầu từ điều chân thật nhất về thương hiệu, rồi tìm cách gần gũi nhất để kể điều đó.”",
         "offClockTitle": "Ngoài giờ làm",
-        "offClockBody": "Tôi vận hành các kênh nội dung riêng về thời trang và du lịch. Đó là cách tôi kiểm chứng điều gì thực sự hiệu quả trên social, thay vì chỉ hay trên slide thuyết trình. Ngoài ra, tôi thích đi đây đó mỗi khi có thể, ghé chùa để tìm một khoảng lặng và vẫn luôn tò mò về tử vi Việt Nam. Tiếng Trung của tôi hiện ở trình độ HSK 3.",
         "interests": {
-          "fashion": "Sáng tạo nội dung thời trang",
+          "fashion": "Sáng tạo nội dung Lifestyle, FMCG, thời trang",
+          "remote": "Dự án remote thị trường châu Âu",
           "travel": "Du lịch",
-          "pagodas": "Đi chùa",
-          "astrology": "Tử vi",
           "mandarin": "Tiếng Trung · HSK 3"
         }
       },

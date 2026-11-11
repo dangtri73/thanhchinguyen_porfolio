@@ -179,6 +179,12 @@ a{color:inherit}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
 .chips span{padding:.42rem .9rem;border-radius:999px;background:var(--sand);font-size:.83rem;font-weight:600}
 .chips span::before{content:"◦ ";color:var(--coral)}
+.scope{list-style:none;display:grid;gap:.75rem;max-width:60ch}
+.scope li{display:grid;grid-template-columns:minmax(9.5rem,13rem) 1fr;gap:.2rem 1.2rem;padding-bottom:.75rem;border-bottom:1px solid var(--sand)}
+.scope li:last-child{border-bottom:0;padding-bottom:0}
+.scope b{font-weight:600;font-size:.95rem}
+.scope span{font-size:.95rem;color:#3d3631}
+@media(max-width:560px){.scope li{grid-template-columns:1fr}}
 @media(max-width:920px){.about{grid-template-columns:1fr}.about__portrait{position:static;max-width:360px}}
 
 /* ============ SKILLS ============ */
@@ -463,14 +469,19 @@ a{color:inherit}
 
       <div class="story">
         <div>
-          <h3 data-i18n="about.startTitle">Where it started</h3>
-          <p data-i18n="about.startBody">I studied journalism because I wanted to tell stories that mattered to real people. Somewhere between my first reporting assignment and my first brand brief, I realised the most interesting stories were not always in the headlines. They were in how a brand shows up, day after day, in someone's feed, and whether it earns the right to stay there. That curiosity moved me from journalism into brand and social media marketing, and it has never really left.</p>
+          <h3 data-i18n="about.startTitle">In short</h3>
+          <p data-i18n-html="about.startBodyHtml"></p>
         </div>
 
         <div>
-          <h3 data-i18n="about.turningTitle">The turning points</h3>
-          <p data-i18n="about.turningBodyOne">Lazada Vietnam taught me scale. I owned the social channels through Tet, mega sale seasons and Lazada Run, learning very quickly which stories make people stop scrolling and which ones they scroll past. TikTok Shop moved me to the other side of the table: building seller-facing channels from the ground up across Facebook, TikTok and YouTube, writing content that had to educate before it could entertain.</p>
-          <p data-i18n="about.turningBodyTwo">CapitaLand Development gave me the part I care most about. As a Social Communications executive on the Corporate Communications team, I run three social channels covering the business, turning CLD leadership thoughts and customer interviews into stories. On the CSR side, I work with the CapitaLand Hope Foundation and Blue Dragon Children's Foundation, hosting weekend mini-events and running the annual Hope School Programme. It showed me what communication can do when it is built on something real.</p>
+          <h3 data-i18n="about.scopeTitle">Main scope</h3>
+          <ul class="scope">
+            <li><b data-i18n="about.scope.social.title"></b><span data-i18n="about.scope.social.body"></span></li>
+            <li><b data-i18n="about.scope.brand.title"></b><span data-i18n="about.scope.brand.body"></span></li>
+            <li><b data-i18n="about.scope.content.title"></b><span data-i18n="about.scope.content.body"></span></li>
+            <li><b data-i18n="about.scope.kol.title"></b><span data-i18n="about.scope.kol.body"></span></li>
+            <li><b data-i18n="about.scope.research.title"></b><span data-i18n="about.scope.research.body"></span></li>
+          </ul>
         </div>
 
         <div>
@@ -480,9 +491,8 @@ a{color:inherit}
 
         <div>
           <h3 data-i18n="about.offClockTitle">Off the clock</h3>
-          <p data-i18n="about.offClockBody">I run my own channels — fashion and travel — which keeps me honest about what actually works on social rather than what sounds good in a deck. Beyond that: travelling whenever I can, visiting pagodas for a quiet reset, and a long-running curiosity about Vietnamese astrology. Mandarin is a work in progress at HSK 3.</p>
           <div class="chips" aria-label="Interests" data-i18n-aria-label="a11y.interests">
-            <span data-i18n="about.interests.fashion">Fashion content creator</span><span data-i18n="about.interests.travel">Travel</span><span data-i18n="about.interests.pagodas">Pagoda visits</span><span data-i18n="about.interests.astrology">Tử vi</span><span data-i18n="about.interests.mandarin">Mandarin · HSK 3</span>
+            <span data-i18n="about.interests.fashion">Lifestyle, FMCG &amp; fashion content creator</span><span data-i18n="about.interests.remote">Remote projects · European market</span><span data-i18n="about.interests.travel">Travel</span><span data-i18n="about.interests.mandarin">Mandarin · HSK 3</span>
           </div>
         </div>
 
